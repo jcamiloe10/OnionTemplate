@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnionTemplate.Dtos\OnionTemplate.Dtos.csproj" />
+    <ProjectReference Include="..\TravelOnionTemplate.Entities\OnionTemplate.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
