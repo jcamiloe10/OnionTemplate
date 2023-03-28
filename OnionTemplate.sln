@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionTemplate.Controller", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionTemplate.IoC", "OnionTemplate.IoC\OnionTemplate.IoC.csproj", "{E1306340-6D73-4840-96F7-6EFC17B63997}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks and drivers", "Frameworks and drivers", "{02FC33E1-C640-4EEF-B9A3-F1A49F66574C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

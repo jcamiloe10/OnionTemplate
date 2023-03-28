@@ -13,6 +13,12 @@
 
         }
 
+        public Task CreateProductAsync(Product product)
+        {
+            this.products.Add(product);
+            return Task.CompletedTask;
+        }
+
         public async Task<IEnumerable<Product>> GetAllAsync()
         {
             return await Task.FromResult(this.PopulateProducts());
