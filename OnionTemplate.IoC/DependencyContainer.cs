@@ -1,9 +1,9 @@
 ﻿namespace OnionTemplate.IoC
 {
     using Microsoft.Extensions.DependencyInjection;
-    using OnionTemplate.Presenters;
     using OnionTemplate.Repository;
     using OnionTemplate.UsesCases;
+    using OnionTemplate.Presenters;
 
     public static class DependencyContainer
     {

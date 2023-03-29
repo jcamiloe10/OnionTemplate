@@ -1,15 +1,10 @@
-﻿using OnionTemplate.Dtos;
-using OnionTemplate.Entities.Interfaces;
-using OnionTemplate.UseCasesPort;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TravelOnionTemplate.Entities;
-
-namespace OnionTemplate.UsesCases.CreateProduct
+﻿namespace OnionTemplate.UsesCases.CreateProduct
 {
+    using OnionTemplate.Dtos;
+    using OnionTemplate.Entities.Interfaces;
+    using OnionTemplate.UseCasesPort;
+    using TravelOnionTemplate.Entities;
+
     public class CreateProductInteractor : ICreateProductInportPort
     {
         readonly IProductRepository productRepository;
@@ -19,7 +14,7 @@ namespace OnionTemplate.UsesCases.CreateProduct
             (this.productRepository, this.outputPort) = (productRepository, outputPort);
 
 
-        public async Task Handle(CreatePorductDto product)
+        public async Task Handle(CreateProductDto product)
         {
             Product newProduct = new Product()
             {

@@ -8,7 +8,7 @@
         public static IServiceCollection AddPresenters( this IServiceCollection services)
         {
             services.AddScoped<IGetAllProductOuputPort,GetAllProductPresenter>();
-
+            services.AddScoped<ICreateProductOutputPort, CreateProductPresenter>();
 
             return services;
         }

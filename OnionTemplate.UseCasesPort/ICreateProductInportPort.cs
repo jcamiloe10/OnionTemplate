@@ -4,6 +4,6 @@
 
     public interface ICreateProductInportPort
     {
-        Task Handle(CreatePorductDto product);
+        Task Handle(CreateProductDto product);
     }
 }

@@ -1,6 +1,4 @@
-﻿using OnionTemplate.Dtos;
-
-namespace OnionTemplate.UseCasesPort
+﻿namespace OnionTemplate.UseCasesPort
 {
     public interface IGetAllProductInputPort
     {
