@@ -16,12 +16,10 @@
 
         public async Task Handle(CreateProductDto product)
         {
-            Product newProduct = new Product()
-            {
-                Name = product.Name
-            };
+            Product newProduct = new Product(product.Name);
 
             await this.productRepository.CreateProductAsync(newProduct);
+
             await this.outputPort.Handle(
                 new ProductDto()
                 {
